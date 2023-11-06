@@ -1,0 +1,388 @@
+html{ 
+    scroll-behavior: smooth;
+    font-family: 'Bitter', serif;
+    background-color: #FEFBF6;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inline-block {
+    list-style: none;
+    padding-left: 5px;
+    word-spacing: 50px;
+}
+
+--> Header
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.imgOne{
+    display: inline-block;
+    padding-left: 5px;
+    max-width: 10%;
+    height: auto;
+    padding-top: 15px;
+}
+
+header {
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+header ul {
+    float: right;
+    color: #0C2E6E;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+header .inline-block{
+    display: inline;
+}
+
+.nav-item{
+    color: #0C2E6E;
+}
+
+.description5{
+    font-family: 'Quicksand', serif;
+    color: #333333;
+    text-align: center;
+}
+
+.display{
+    color:#0C2E6E;
+    font-size: 300%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.jumbotron{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #FEFBF6;
+}
+
+#imgThree{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+--> Project Overview
+
+.section2{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color:#333333;
+}
+
+.section2 h1{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 70px;
+    color: #333333;
+    font-size: xx-large;
+    font-weight: 600;
+    color:#333333;
+}
+
+.viewPrototype{
+    font-family: 'quicksand', serif;
+    font-weight: 500;
+    font-size:x-large;
+    padding: 20px 60px;
+    color:#333333;
+    border-color: #333333;
+    border-radius: 50px;
+    background-color: #FEFBF6;
+}
+
+.text-center{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.section2 .flex-child .title{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size:larger;
+    color: #333333;
+}
+
+.section2 .flex-child .description{
+    font-family: 'quicksand', serif;
+    color:#333333;
+    font-size: large;
+}
+
+.section2 .flex-container {
+    display: flex;
+    column-width: 1140px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    max-width: 1000x;
+    padding: 50px;
+    color:#333333;
+}
+
+.section2 .flex-child {
+    flex: 1;
+    color:#333333;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    max-width: 1000x;
+    padding: 50px;
+    color:#333333;
+    column-gap: 10px;
+}  
+
+.section2 .flex-container .right{
+    flex-grow: 3;
+}
+
+.section3 h1{
+    font-weight: 600;
+}
+
+.section3{
+    padding-top: 80px;
+}
+
+.title3{
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.col3{
+    font-family: 'quicksand', serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.flex-container3{
+    display: flex;
+    column-width: 1140px;
+    max-width: 1000x;
+    padding-top: 35px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    color:#333333;
+}
+
+.flex-child-three{
+    flex:1;
+    column-gap: 10px;
+}
+
+
+
+
+
+
+.section4{
+    margin-left: 200px;
+    margin-right: 200px;
+    color:#333333;
+}
+
+.mainTitle{
+    padding-bottom: 60px;
+}
+
+.subTitle1 h2{
+    font-size:x-large;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.para{
+    font-family: 'quicksand', serif;
+    line-height: 1.5;
+}
+
+.subTitle h2{
+    font-size: larger;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.list{
+    font-family: 'quicksand', serif;
+    line-height: 1.5;
+}
+
+.mainTitle1{
+    padding-top: 60px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#userInterview{
+    padding-bottom: 65px;
+}
+
+#empathyMap{
+    width:70%;
+}
+
+#protoPersona{
+    width:70%;
+}
+
+#userScenario{
+    width: 80%;
+    padding-top: 40px;
+}
+
+#featureMatrix{
+    width: 70%;
+}
+
+.finalProto{
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#bottomButton1{
+    padding-top:30px;
+    padding-bottom: 200px;
+    background-color: white;
+}
+
+#bottomButton2{
+    background-color: white;
+}
+
+.finalThoughts{
+    background-color: #FEFBF6;
+}
+
+.subTitle2{
+    font-family: 'work sans',serif;
+    font-weight: 600;
+    margin-left:300px;
+    margin-right: 300px;
+    background-color: #FEFBF6;
+    color:#333333;
+}
+
+.para1{
+    font-family: 'quicksand', serif;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    margin-left:300px;
+    margin-right: 300px;
+    background-color: #FEFBF6;
+    color:#333333;
+}
+
+.list1{
+    font-family: 'quicksand', serif;
+    padding-bottom:60px;
+    line-height: 1.5;
+    margin-left:300px;
+    margin-right: 300px;
+    background-color: #FEFBF6;
+    color:#333333;
+}
+
+.mainTitle{
+    padding-top: 60px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.mainTitle2{
+    text-align: center;
+    color:#333333;
+    font-size: x-large;
+    padding-top: 150px;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.projectTitle{
+    color:#333333;
+    font-size: x-large;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.projectSubTitle{
+    font-family: 'work sans', serif;
+    font-size: larger;
+    color: #333333;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-weight: 500;
+}
+
+.img1{
+    max-width: 50%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    font-family: 'quicksand', serif;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+    line-height:4;
+}
+
+.list2{
+    list-style: none;
+    text-align: center;
+    line-height: 4;
+}
